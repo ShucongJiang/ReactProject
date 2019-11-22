@@ -1,5 +1,4 @@
 import React from "react";
-import store from "./store";
 import { connect } from "react-redux"; //引入连接器
 
 const TodoList = (props) => {
