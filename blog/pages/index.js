@@ -46,9 +46,9 @@ const Home = () => {
               <List.Item>
                 <div className="list-title">{item.title}</div>
                 <div className="list-icon">
-                  <span><Icon type="calendar" />2019-12-5</span>
-                  <span><Icon type="folder" />视频教程</span>
-                  <span><Icon type="fire" />100</span>
+                  <span><Icon type="calendar" /> 2019-12-5</span>
+                  <span><Icon type="folder" /> 视频教程</span>
+                  <span><Icon type="fire" /> 100</span>
                 </div>
                 <div className="list-context">{item.context}</div>
               </List.Item>
