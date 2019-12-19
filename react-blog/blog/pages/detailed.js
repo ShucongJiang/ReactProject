@@ -67,10 +67,10 @@ const Detailed = () => {
             </div>
 
             <div>
-              <div class="detailed-title">
+              <div className="detailed-title">
                 React实战视频教程-技术胖Blog开发(更新08集)
               </div>
-              <div class="list-icon center">
+              <div className="list-icon center">
                 <span>
                   <Icon type="calendar" /> 2019-12-16
                 </span>
@@ -94,7 +94,7 @@ const Detailed = () => {
         <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
           <Author />
           <Advert />
-          <div class="detailed-nav comm-box">
+          <div className="detailed-nav comm-box">
             <div className="nav-title">文章目录</div>
             <MarkNav 
               className="article-menu"
